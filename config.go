@@ -6,12 +6,13 @@ import (
 	"os"
 	"strconv"
 	"strings"
-	"sync"
 
 	"github.com/jetkvm/kvm/internal/confparser"
 	"github.com/jetkvm/kvm/internal/logging"
 	"github.com/jetkvm/kvm/internal/network/types"
+	"github.com/jetkvm/kvm/internal/sync"
 	"github.com/jetkvm/kvm/internal/usbgadget"
+
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 )
